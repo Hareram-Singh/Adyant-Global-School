@@ -24,7 +24,6 @@ export default function CurriculumSection() {
             {programs.map((item, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 60 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: index * 0.15 }}
                 viewport={{ once: true }}
@@ -105,7 +104,6 @@ export default function CurriculumSection() {
             {programs.map((item, index) => (
               <motion.div
   key={index}
-  initial={{ opacity: 0, y: 40 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6, delay: index * 0.1 }}
   viewport={{ once: true }}

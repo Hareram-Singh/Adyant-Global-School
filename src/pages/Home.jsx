@@ -6,12 +6,11 @@ import FlyoutMenu from "../components/FlyoutMenu";
 import Hero from "../components/Hero";
 import ExcellenceSection from "../components/ExcellenceSection";
 import CampusSection from "../components/CampusSection";
-import ThriveSection from '../Components/ThriveSection';
-import CurriculumSection from "../Components/CurriculumSection";
-import GrowthPlatformSection from "../Components/GrowthPlatformSection";
-import EventsSection from "../Components/EventsSection";
-import ContactCTASection from "../Components/ContactCTASection";
-import Footer from "../Components/Footer";
+import CurriculumSection from "../components/CurriculumSection";
+import GrowthPlatformSection from "../components/GrowthPlatformSection";
+import EventsSection from "../components/EventsSection";
+import ContactCTASection from "../components/ContactCTASection";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
