@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@keyframes marqueeSlow {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee-slow {
+  animation: marqueeSlow 25s linear infinite;
+}
