@@ -75,7 +75,7 @@ export default function ExcellenceSection() {
             initial={{ opacity: 0, y: 40 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0 }}
             transition={{ delay: 0.6, duration: 0.7 }}
-            className="flex flex-nowrap items-start gap-2 md:gap-8"
+            className="flex flex-nowrap items-start gap-3 md:gap-8"
           >
             <Stat number={c1} suffix="+" title="States & Union Territories" />
             <Divider />
@@ -138,7 +138,7 @@ function Divider() {
 
 function Stat({ number, suffix, title }) {
   return (
-    <div className="min-w-[120px]">
+    <div className="min-w-[80px] md:min-w-[120px] flex-1">
       <div className="flex items-end gap-1">
         <h3 className="text-3xl md:text-4xl font-semibold text-[#2f3e78]">
           {number}

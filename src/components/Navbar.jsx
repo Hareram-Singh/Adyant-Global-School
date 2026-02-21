@@ -28,7 +28,7 @@ export default function Navbar({ setMenuOpen }) {
         md:bg-white overflow-hidden ${scrolled ? "bg-white shadow-sm" : "bg-transparent"}
       `}
     >
-      <div className="max-w-[1400px] mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="max-w-[1400px] mx-auto px-4 py-4 flex md:justify-between justify-center items-center">
         {/* LEFT SIDE */}
         <div className="flex items-center gap-4">
           {/* Desktop */}
@@ -38,9 +38,9 @@ export default function Navbar({ setMenuOpen }) {
           </div>
 
           {/* Mobile */}
-          <div className="md:hidden flex items-center gap-3 ">
-            <img src={mobileLogo} className="h-8 w-20" />
-            <img src={mobileBadge} className="h-6" />
+          <div className="md:hidden flex items-center justify-center gap-6 w-full">
+            <img src={mobileLogo} className="h-8 w-25" />
+            <img src={mobileBadge} className="h-6 " />
           </div>
         </div>
 
