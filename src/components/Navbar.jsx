@@ -24,7 +24,7 @@ export default function Navbar({ setMenuOpen }) {
   return (
     <header
       className={`
-        fixed top-0 w-full z-50 transition-all duration-300
+        fixed top-0 w-full z-50 transition-all duration-300 overflow-x-hidden
         md:bg-white overflow-hidden ${scrolled ? "bg-white shadow-sm" : "bg-transparent"}
       `}
     >
@@ -38,7 +38,7 @@ export default function Navbar({ setMenuOpen }) {
           </div>
 
           {/* Mobile */}
-          <div className="md:hidden flex items-center gap-12 items-center">
+          <div className="md:hidden flex items-center gap-3 ">
             <img src={mobileLogo} className="h-8 w-20" />
             <img src={mobileBadge} className="h-6" />
           </div>
