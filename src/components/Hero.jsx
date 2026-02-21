@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import img1 from "../assets/hero1.webp";
-import img2 from "../assets/hero2.webp";
-import img3 from "../assets/hero3.webp";
-import img4 from "../assets/hero4.webp";
+import img1 from "../assets/adyant12.jpeg";
+import img2 from "../assets/adyant14.jpeg";
+import img3 from "../assets/adyant15.jpeg";
+import img4 from "../assets/adyant2.jpeg";
+import img5 from "../assets/adyant4.jpeg";
 
-const images = [img1, img2, img3, img4];
+const images = [img1, img2, img3, img4, img5];
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
@@ -25,7 +26,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full md:mt-10 overflow-hidden">
 
       {/* ================= DESKTOP HERO ================= */}
       <div className="hidden md:block relative h-[85vh]">
@@ -54,8 +55,8 @@ export default function Hero() {
               exit={{ opacity: 0, y: 30 }}
               transition={{ duration: 1 }}
             >
-              <h1 className="text-5xl font-serif text-[#2f3e78] tracking-wide">
-                THRIVE. For LIFE.
+              <h1 className="text-4xl font-serif text-[#0199DC] tracking-wide">
+                Building Bright Futures.
               </h1>
             </motion.div>
           </AnimatePresence>
@@ -70,7 +71,7 @@ export default function Hero() {
               onClick={() => goToSlide(i)}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
                 i === index
-                  ? "bg-[#2F3E78] scale-125"
+                  ? "bg-[#0199DC] scale-125"
                   : "bg-[white] hover:bg-white"
               }`}
             />
@@ -83,7 +84,7 @@ export default function Hero() {
       <div className="md:hidden">
 
         {/* Image Section */}
-        <div className="relative h-[50vh]">
+        <div className="relative h-[50vh] ">
 
           <AnimatePresence mode="wait">
             <motion.img
@@ -111,7 +112,7 @@ export default function Hero() {
               transition={{ duration: 0.9, ease: [0.4, 0, 0.2, 1] }}
             >
               <h1 className="text-3xl font-serif text-[#2f3e78] mb-3 text-center">
-                THRIVE. For LIFE.
+                Building Bright Futures.
               </h1>
 
               <p className="text-sm text-gray-700 text-center">

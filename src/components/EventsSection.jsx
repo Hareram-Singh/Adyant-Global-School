@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import upcomingImg from "../assets/upcoming.jpg";
-import e1 from "../assets/e1.webp";
+import upcomingImg from "../assets/upcoming.webp";
+import e1 from "../assets/adyant8.jpeg";
 import e2 from "../assets/e2.webp";
-import e3 from "../assets/e3.webp";
-import e4 from "../assets/e4.webp";
+import e3 from "../assets/adyant12.jpeg";
+import e4 from "../assets/adyant6.jpeg";
 
 export default function EventsSection() {
   return (
@@ -57,7 +57,7 @@ function DesktopLayout() {
           </p>
 
           <h3 className="text-lg mt-2 text-gray-900">
-            IBDP Graduation Ceremony
+            AADYANT Certification Ceremony
           </h3>
 
           <div className="w-12 h-[2px] bg-yellow-600 mt-4"></div>
@@ -82,8 +82,8 @@ function DesktopLayout() {
         <div className="grid grid-cols-2 gap-8">
           <EventCard image={e1} date="Nov 25, 2025" title="Another Step Towards Change: Fairtrade Awareness Programme" />
           <EventCard image={e2} date="Oct 08, 2025" title="15th Gayatri Devi Goenka Memorial Basketball Tournament 2025" />
-          <EventCard image={e3} date="Sep 04, 2025" title="GD Goenka Group Earns 2025-26 Great Place To Work Certification™" />
-          <EventCard image={e4} date="Jan 27, 2025" title="Annadan 5.0: Five Years of Hope and Change" />
+          <EventCard image={e3} date="Sep 04, 2025" title="Aadyant School Celebrates Innovation: Science Exhibition 2025–26" />
+          <EventCard image={e4} date="Jan 27, 2025" title="Aadyant School Presents Annual Programme 2025–26" />
         </div>
       </motion.div>
     </>

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
-import ctaImage from "../assets/cta.webp";
+import ctaImage from "../assets/adyant9.jpeg";
 
 export default function ContactCTASection() {
   return (
@@ -10,7 +10,7 @@ export default function ContactCTASection() {
       <div className="hidden lg:grid grid-cols-2">
 
         {/* LEFT SIDE */}
-        <div className="bg-[#34478A] px-28 py-16 flex flex-col justify-center relative overflow-hidden">
+        <div className="bg-[#0272a3] px-28 py-16 flex flex-col justify-center relative overflow-hidden">
 
           <motion.div
             initial="hidden"
@@ -74,7 +74,7 @@ export default function ContactCTASection() {
         <img
           src={ctaImage}
           alt=""
-          className="w-full h-[700px] object-cover"
+          className="w-full h-[600px] object-cover"
         />
 
         {/* Overlay Card */}
@@ -83,7 +83,7 @@ export default function ContactCTASection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="absolute left-1/2 -translate-x-1/2 bottom-6 w-[90%] bg-[#34478A] px-4 py-4 shadow-xl"
+          className="absolute left-1/2 -translate-x-1/2 bottom-6 w-[90%] bg-[#0272a3] px-4 py-4 shadow-xl"
         >
           <p className="text-white/80 font-bold text-center text-sm mb-4">
             Get in Touch

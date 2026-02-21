@@ -1,5 +1,5 @@
 import { Facebook, Youtube, Instagram, Linkedin, Phone, Mail, MapPin } from "lucide-react";
-import logo from "../assets/colors.png";
+import logo from "../assets/adyant logo.png";
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
           {/* COLUMN 1 */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="" className="h-10" />
+              <img src={logo} alt="" className="h-20" />
             </div>
 
             <div className="flex gap-4 mt-4">
@@ -69,17 +69,16 @@ export default function Footer() {
             </h3>
 
             <p className="mb-4">
-              GD Goenka Education City, Sohna – Gurgaon Rd,
-              Sohna, Haryana 122103
+              AADYANT Global School, <br/> 11, Nelson Mandela Marg Vasant Kunj, New Delhi -110070, India
             </p>
 
             <div className="space-y-3">
               <ContactItem icon={<Phone size={16} />}>
-                +91-9254-969-550
+                +91-9999-468-125
               </ContactItem>
 
               <ContactItem icon={<Mail size={16} />}>
-                admissions@gdgoenka.com
+                info@aadyant.com
               </ContactItem>
 
               <ContactItem icon={<MapPin size={16} />}>
@@ -92,7 +91,7 @@ export default function Footer() {
 
         {/* Desktop Bottom */}
         <div className="max-w-7xl mx-auto px-6 mt-16 mb-16 border-t pt-6 flex justify-between text-xs text-gray-600">
-          <p>© 2026 GD Goenka World School.</p>
+          <p>© 2026 AADYANT Global School.</p>
           <p>Website Designed and Developed by Hareram Singh</p>
         </div>
       </div>
@@ -102,16 +101,16 @@ export default function Footer() {
 
         {/* School Name */}
         <h2 className="text-lg font-semibold mb-4">
-          GD Goenka World School
+          AADYANT Global School
         </h2>
 
         <p className="text-sm mb-2">
-          GD Goenka Education City, Sohna –
-          Gurgaon Rd, Sohna, Haryana 122103
+          AADYANT Global School, 11 –
+          Nelson Mandela Marg Vasant Kunj, New Delhi -110070, India
         </p>
 
-        <p className="mb-2">M: +91-9254-969-550</p>
-        <p className="mb-2">E: admissions@gdgoenka.com</p>
+        <p className="mb-2">M: +91-9999-468-125</p>
+        <p className="mb-2">E: info@aadyant.com</p>
         <p className="mb-6">L: GPS Location</p>
 
         {/* Links Grid */}
@@ -158,7 +157,7 @@ export default function Footer() {
         <div className="border-t my-6"></div>
 
         <p className="text-xs mb-2">
-          © 2026 GD Goenka World School.
+          © 2026 AADYANT Global School.
         </p>
         <p className="text-xs mb-20">
           Website Designed and Developed by Hareram Singh
@@ -196,7 +195,7 @@ function FooterColumn({ title, links }) {
 
 function SocialIcon({ children }) {
   return (
-    <div className="w-9 h-9 flex items-center justify-center bg-white rounded-full shadow-sm hover:bg-blue-800 hover:text-white transition cursor-pointer">
+    <div className="w-9 h-9 flex items-center justify-center bg-white rounded-full shadow-sm hover:bg-[#0272A3] hover:text-white transition cursor-pointer">
       {children}
     </div>
   );
@@ -204,8 +203,8 @@ function SocialIcon({ children }) {
 
 function ContactItem({ icon, children }) {
   return (
-    <div className="flex items-center gap-3 hover:text-blue-800 transition cursor-pointer">
-      <span className="text-blue-800">{icon}</span>
+    <div className="flex items-center gap-3 hover:text-[#0272A3] transition cursor-pointer">
+      <span className="text-[#0272A3]">{icon}</span>
       <span>{children}</span>
     </div>
   );

@@ -3,12 +3,12 @@ import { Plus, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import svg from "../assets/svg-viewer.svg";
 
-import img1 from "../assets/g1.webp";
+import img1 from "../assets/adyant9.jpeg";
 import img2 from "../assets/g2.webp";
-import img3 from "../assets/g3.webp";
-import img4 from "../assets/g4.webp";
+import img3 from "../assets/adyant1.jpeg";
+import img4 from "../assets/adyant12.jpeg";
 import img5 from "../assets/g5.webp";
-import img6 from "../assets/g6.webp";
+import img6 from "../assets/adyant14.jpeg";
 
 const images = [img1, img2, img3, img4, img5, img6];
 

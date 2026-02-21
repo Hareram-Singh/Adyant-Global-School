@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
-import img1 from "../assets/campus1.webp";
-import img2 from "../assets/campus2.webp";
-import img3 from "../assets/campus3.webp";
-import img4 from "../assets/campus4.webp";
-import img5 from "../assets/campus5.webp";
-import img6 from "../assets/campus6.webp";
+import img1 from "../assets/adyant3.jpeg";
+import img2 from "../assets/adyant5.jpeg";
+import img3 from "../assets/adyant7.jpeg";
+import img4 from "../assets/adyant9.jpeg";
+import img5 from "../assets/adyant10.jpeg";
+import img6 from "../assets/adyant11.jpeg";
 
 export default function CampusSection() {
   return (

@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
-import chairman from "../assets/anjani.webp";
-import vice from "../assets/renu.webp";
+import chairman from "../assets/RK-Mittal.png";
+import vice from "../assets/Gaurav.png";
 
 export default function ExcellenceSection() {
   const { ref, inView } = useInView({
@@ -64,10 +64,10 @@ export default function ExcellenceSection() {
             className=" hidden md:block  space-y-4 text-gray-600 text-sm md:text-base leading-relaxed mb-10 md:mb-8"
           >
             <p>
-              The GD Goenka journey began over three decades ago with its first campus in Vasant Kunj. It has since grown into a network of more than 150 K–12 schools shaped by quality and innovation.
+              The **Aadyant School** journey began over three decades ago with its first campus in Vasant Kunj. Since then, it has evolved into a dynamic network of more than 150 K–12 institutions, built on a strong foundation of quality education and continuous innovation.
             </p>
             <p>
-              At GD Goenka World School, this vision lives through IB PYP, CLS, IGCSE and IBDP pathways to nurture learners who Thrive. For Life.
+              At Aadyant School, this vision thrives through IB PYP, CLS, IGCSE and IBDP pathways, nurturing learners who excel for life.
             </p>
           </motion.div>
 
@@ -91,15 +91,15 @@ export default function ExcellenceSection() {
           <div className="mt-0 flex md:hidden gap-4">
             <LeaderCard
               image={chairman}
-              name="Shri Anjani Kumar Goenka"
+              name="R K Mittal"
               role="Chairman"
               inView={inView}
               delay={0.3}
             />
             <LeaderCard
               image={vice}
-              name="Ms. Renu Goenka"
-              role="Vice Chairperson"
+              name="Gaurav Mittal"
+              role="Chairman"
               inView={inView}
               delay={0.5}
             />
@@ -111,15 +111,15 @@ export default function ExcellenceSection() {
         <div className="hidden md:flex gap-12">
           <LeaderCard
             image={chairman}
-            name="Shri Anjani Kumar Goenka"
+            name="R K Mittal"
             role="Chairman"
             inView={inView}
             delay={0.3}
           />
           <LeaderCard
             image={vice}
-            name="Ms. Renu Goenka"
-            role="Vice Chairperson"
+            name="Gaurav Mittal"
+            role="Chairman"
             inView={inView}
             delay={0.5}
           />
@@ -167,7 +167,8 @@ function LeaderCard({ image, name, role, inView, delay }) {
 
         {/* Navy Offset (Hover Only) */}
         <div
-          className="absolute top-6 left-6 w-full h-full bg-[#3b4a8f]
+          className="absolute top-6 left-6 w-full h-full bg-[#0098DB]
+                    rounded-full
                      opacity-0
                      transition-all duration-500 ease-out
                      group-hover:opacity-100">
@@ -188,7 +189,7 @@ function LeaderCard({ image, name, role, inView, delay }) {
 
       </div>
 
-      <div className="mt-5 md:mt-6 flex justify-between items-start">
+      <div className="mt-5 md:mt-6 flex gap-4 items-start">
 
         <div>
           <h5
@@ -203,7 +204,7 @@ function LeaderCard({ image, name, role, inView, delay }) {
           </p>
 
           <p className="text-xs md:text-sm text-gray-500">
-            GD Goenka Group
+            Aadyant School
           </p>
         </div>
 
